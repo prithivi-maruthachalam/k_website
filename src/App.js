@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learnt React - oi
+          Learnt React - oi - prithivi's branch
         </a>
       </header>
     </div>
