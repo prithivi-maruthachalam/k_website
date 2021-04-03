@@ -16,7 +16,8 @@ class Hero extends Component{
                 <div className="fluid-container hero-base">
                 
                     <div className="hero-image-bg-left">
-                        <img src={ gear} alt="" className="gearImage"/>
+                        <img src={gear} alt="" className="gearImage" />
+                        <img src={ gear} alt="" className="gearImage2"/>
                     </div>
                 
                     <div className="hero-image-bg-right text-right">
@@ -25,7 +26,7 @@ class Hero extends Component{
                         <div className="hero-text">INDIA!</div>
 
                         <div className="mt-4-5 this">
-                            <Link to="/residenceInteriors">
+                            <Link to="/workInProgress">
                                 <button className="btn btn-light btn-explore">
                                     Explore <img className="btn-img" src={arrow} alt="space saving furniture for small homes"/>
                                 </button>

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 
 import Header from "./components/header.js";
 import Home from "./components/home";
+import WIP from "./components/workInProgress"
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -20,7 +21,10 @@ const App = () => {
             <Route exact path="/">
               <Home/>
             </Route>
-            </Switch>
+            <Route exact path="">
+              <WIP/>
+            </Route>
+          </Switch>
         </BrowserRouter>
       </div>
     </div>

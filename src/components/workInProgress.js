@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 
 import '../styles/workInProgress.css';
 import wipImage from '../media/images/WIP/wip.png';
-import DevSection from "./devNDesBy.js";
 
 const devSectionStyling = {
     backgroundImage: "linear-gradient(to left, #247DBE, #71bcf1)",
@@ -22,7 +21,6 @@ class WorkInProgress extends Component{
                 <img className="wip-image" src={wipImage} alt="" />
                 </div>
             </div>
-            <DevSection styling={devSectionStyling}/>
             </div>
         );
     }
