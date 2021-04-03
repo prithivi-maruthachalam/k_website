@@ -1,6 +1,6 @@
 .hero-base{
     background-image: linear-gradient(to left, #247DBE, #71bcf1);
-    height: 580px;
+    height: 600px;
     position: relative;
 }
 
@@ -65,7 +65,7 @@
 .hero-image-bg-right{
     position: absolute;
     z-index: 20;
-    top: 15px;
+    top: 30px;
     right: 40px;
 }
 
@@ -133,7 +133,7 @@
 
 @media(max-width: 1615px) {
     .hero-text {
-        font-size: 130px;
+        font-size: 8vw;
         transition: all 0.4s;
     }
 
@@ -162,4 +162,12 @@
     .hero-base-2 {
         height: 240px;
     }
+}
+
+@media(max-width: 1555px){
+    .hero-image-bg-left {
+        height: 400px;
+        width: 400px;
+    }
+
 }
