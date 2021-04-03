@@ -7,4 +7,24 @@
     justify-content: space-between;
 }
 
+.btn-nav {
+    background: linear-gradient(135deg, #a9d3f1, #82beec);
+    box-shadow: 5px 5px 15px #338ac9, -5px -5px 15px #9ed1fa;
+    transition: all 0.3s;
+
+}
+
+.header-button-base {
+    border-radius: 5px !important;
+    font-weight: 500;
+    font-size: 20px!important;
+    border: none !important;
+    outline: none !important;
+
+    padding-right: 10px;
+    padding-left: 10px;
+
+    color: #ffffff !important;
+    margin-left: 20px;
+}
 

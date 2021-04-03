@@ -2,10 +2,10 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
 
-import arrow from '../../media/icons/right-arrow.png';
-import gear from '../../media/images/gear.png'
+import arrow from '../media/icons/right-arrow.png';
+import gear from '../media/images/gear.png'
 
-import '../../styles/home/hero.css';
+import '../styles/hero.css';
 
 class Hero extends Component{
 

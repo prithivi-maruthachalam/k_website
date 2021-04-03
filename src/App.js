@@ -2,9 +2,10 @@ import {BrowserRouter, Route, Switch } from "react-router-dom";
 import React, { Component } from 'react';
 
 import Header from "./components/header.js";
-import Home from "./components/home";
+import Home from "./components/hero.js";
 import WIP from "./components/workInProgress"
 import Footer from "./components/footer"
+import Pros from "./components/pros.js"
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,15 +16,19 @@ import "./App.css";
 const App = () => {
   return (
     <div className="fluid-container text-center">
-      <Header />
+
       <div className="fluid-container globalContainer">
         <BrowserRouter>
+          <Header />
           <Switch>
+            <Route exact path="/projects">
+              <Pros/>
+            </Route>
+            <Route exact path="/workInProgress">
+              <WIP/>
+            </Route>
             <Route exact path="/">
               <Home/>
-            </Route>
-            <Route exact path="">
-              <WIP/>
             </Route>
           </Switch>
         </BrowserRouter>

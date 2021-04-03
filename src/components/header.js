@@ -1,4 +1,5 @@
-import React, {Component, createRef} from 'react';
+import React, { Component, createRef } from 'react';
+import { Link } from 'react-router-dom';
 
 import '../styles/header.css';
 
@@ -9,7 +10,15 @@ class Header extends Component{
         <div className="header-container">
           <div classname="header-title">Title</div>
           <div>
-            Navigation links will go here
+              <Link to="/">
+                <button className="btn header-button-base btn-nav">Home</button>
+              </Link>
+              <Link to="/projects">
+                <button className="btn header-button-base btn-nav">Projects</button>
+              </Link>
+              <Link to="/workInProgress">
+                <button className="btn header-button-base btn-nav">Something</button>
+              </Link>
           </div>
         </div>
       );
