@@ -8,7 +8,7 @@ class Header extends Component{
     render(){
       return(
         <div className="header-container">
-          <div classname="header-title">Title</div>
+          <div classname="header-title">Digital India</div>
           <div>
               <Link to="/">
                 <button className="btn header-button-base btn-nav">Home</button>
