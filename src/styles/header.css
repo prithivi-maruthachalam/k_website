@@ -1,11 +1,10 @@
 .header-container{
     padding: 15px 50px;
     background-color: #26567e;
-        font-size: 30px;
-        color: white;
-
-        display: flex;
-        justify-content: space-between;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 
