@@ -1,26 +1,30 @@
-import { Route, Switch, BrowserRouter } from "react-router-dom";
+import {BrowserRouter, Route, Switch } from "react-router-dom";
 import React, { Component } from 'react';
 
-import Home from "./home.js"
-import Page1 from "./page1.js"
-import Page2 from "./page2.js"
+import Header from "./components/header.js";
+import Home from "./components/home";
 
-function App() {
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/fonts.css';
+import "./App.css";
+
+
+const App = () => {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/path1">
-          <Page1/>
-        </Route>
-        <Route path="/path2">
-          <Page2/>
-        </Route>
-        <Route path="/">
-          <Home/>
-        </Route>
-      </Switch>
-    </BrowserRouter>
+    <div className="fluid-container text-center">
+      <Header />
+      <div className="fluid-container globalContainer">
+        <BrowserRouter>
+          <Switch>
+            <Route exact path="/">
+              <Home/>
+            </Route>
+            </Switch>
+        </BrowserRouter>
+      </div>
+    </div>
   );
-}
+};
 
 export default App;
