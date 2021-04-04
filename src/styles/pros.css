@@ -83,3 +83,9 @@
     width: 20%;
     background-color: #ebe9e9;
 }
+
+.card-text{
+    color: #9e9e9e;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}

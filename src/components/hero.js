@@ -26,7 +26,7 @@ class Hero extends Component{
                         <div className="hero-text">INDIA!</div>
 
                         <div className="mt-4-5 this">
-                            <Link to="/workInProgress">
+                            <Link to="/projects">
                                 <button className="btn btn-light btn-explore">
                                     Explore <img className="btn-img" src={arrow} alt="space saving furniture for small homes"/>
                                 </button>
