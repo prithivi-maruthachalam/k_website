@@ -19,11 +19,11 @@ class Pros extends Component{
                     <div class="card">
                         <img class="card-img-top" src={ A } alt="Card image cap"/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">View More</h5>
                             <p class="card-text">Some quick example text to build on the
                             card title and make up the bulk of the card's content.</p>
                             <Link to="/workInProgress">
-                                <button class="btn btn-primary btn-B">Go somewhere</button>
+                                <button class="btn-primary btn-B">View More</button>
                             </Link>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ class Pros extends Component{
                             <p class="card-text">Some quick example text to build on the
                             card title and make up the bulk of the card's content.</p>
                             <Link to="/workInProgress">
-                                <button class="btn btn-primary btn-B">Go somewhere</button>
+                                <button class="btn-primary btn-B">View More</button>
                             </Link>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ class Pros extends Component{
                             <p class="card-text">Some quick example text to build on the
                             card title and make up the bulk of the card's content.</p>
                             
-                            <button class="btn btn-primary btn-B">Go somewhere</button>
+                            <button class="btn-primary btn-B">View More</button>
                         </div>
                     </div>
 
@@ -61,7 +61,7 @@ class Pros extends Component{
                             <p class="card-text">Some quick example text to build on the
                             card title and make up the bulk of the card's content.</p>
                             <Link to="/workInProgress">
-                                <button class="btn btn-primary btn-B">Go somewhere</button>
+                                <button class="btn-primary btn-B">View More</button>
                             </Link>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ class Pros extends Component{
                             <p class="card-text">Some quick example text to build on the
                             card title and make up the bulk of the card's content.</p>
                             <Link to="/workInProgress">
-                                <button class="btn btn-primary btn-B">Go somewhere</button>
+                                <button class="btn-primary btn-B">View More</button>
                             </Link>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ class Pros extends Component{
                             <p class="card-text">Some quick example text to build on the
                             card title and make up the bulk of the card's content.</p>
                             <Link to="/workInProgress">
-                                <button class="btn btn-primary btn-B">Go somewhere</button>
+                                <button class="btn-primary btn-B">View More</button>
                             </Link>
                         </div>
                     </div>
