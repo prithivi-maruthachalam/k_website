@@ -1,5 +1,5 @@
 .pros-container {
-    background-image: linear-gradient(to left, #247DBE, #71bcf1);
+    background-image: linear-gradient(to top, #247DBE, #71bcf1);
     position: relative;
 }
 
@@ -25,9 +25,11 @@
 
     font-size: 17px;
     padding: 5px 10px;
-    border-radius: 5px;
 
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4)!important;
+    border-radius: 5px;
+    background: #359CC5;
+    box-shadow: 3px 3px 15px #2d84a765,
+    -3px -3px 15px #3db4e35e;
 }
 
 
@@ -37,3 +39,47 @@
     transition: all 0.4s;
 }
 
+.card-img-top{
+    border-radius: 10px 10px 3px 3px!important;
+}
+
+.card{
+    border-radius: 10px!important;
+    border: 0!important;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4) !important;
+}
+
+.topTxt{
+    padding-top: 30px;
+}
+
+.topTitle{
+    font-size: 4vw;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Open Sans',
+    sans-serif;
+}
+
+.topContent{
+        color: #ebe9e9;
+        font-family: 'Open Sans',
+        sans-serif;
+        font-size: 28px;
+        padding: 0 300px;
+        font-weight: 500;
+
+        padding-bottom: 30px;
+}
+
+.hrContainer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.hr-line{
+    height: 1px;
+    width: 20%;
+    background-color: #ebe9e9;
+}

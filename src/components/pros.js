@@ -15,6 +15,18 @@ class Pros extends Component{
     render(){
         return(
             <div className="fluid-container pros-container">
+                <div className="topTxt">
+                    <div className="topTitle">
+                        Digital India Projects
+                    </div>
+                    <div className="topContent">
+                        Digital India is a flagship programme of the Government of India with a vision to transform India into a digitally empowered society and knowledge economy.
+                    </div>
+                </div>
+
+                <div className="hrContainer container"><div className="hr-line"></div></div>
+                
+                
                 <div className="rowA">
                     <div class="card">
                         <img class="card-img-top" src={ A } alt="Card image cap"/>
