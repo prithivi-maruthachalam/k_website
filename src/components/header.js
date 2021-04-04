@@ -16,8 +16,11 @@ class Header extends Component{
               <Link to="/projects">
                 <button className="btn header-button-base btn-nav">Projects</button>
               </Link>
+              <Link to="/news">
+                <button className="btn header-button-base btn-nav">News</button>
+              </Link>
               <Link to="/workInProgress">
-                <button className="btn header-button-base btn-nav">Something</button>
+                <button className="btn header-button-base btn-nav">WIP</button>
               </Link>
           </div>
         </div>

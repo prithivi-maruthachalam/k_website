@@ -6,6 +6,7 @@ import Home from "./components/hero.js";
 import WIP from "./components/workInProgress"
 import Footer from "./components/footer"
 import Pros from "./components/pros.js"
+import News from "./components/news.js"
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -23,6 +24,9 @@ const App = () => {
           <Switch>
             <Route exact path="/projects">
               <Pros/>
+            </Route>
+            <Route exact path="/news">
+              <News/>
             </Route>
             <Route exact path="/workInProgress">
               <WIP/>
