@@ -7,6 +7,7 @@ import WIP from "./components/workInProgress"
 import Footer from "./components/footer"
 import Pros from "./components/pros.js"
 import News from "./components/news.js"
+import Gallery from "./components/galley.js"
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -22,6 +23,9 @@ const App = () => {
         <BrowserRouter>
           <Header />
           <Switch>
+            <Route exact path="/gallery">
+              <Gallery/>
+            </Route>
             <Route exact path="/projects">
               <Pros/>
             </Route>

@@ -19,8 +19,8 @@ class Header extends Component{
               <Link to="/news">
                 <button className="btn header-button-base btn-nav">News</button>
               </Link>
-              <Link to="/workInProgress">
-                <button className="btn header-button-base btn-nav">WIP</button>
+              <Link to="/gallery">
+                <button className="btn header-button-base btn-nav">Gallery</button>
               </Link>
           </div>
         </div>
