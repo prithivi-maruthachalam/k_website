@@ -27,10 +27,7 @@ class NewsItem extends Component{
                         {this.props.title}
                     </div>
                     <div className="newContent">
-                        As many as 420 e-Hospitals have
-                        been established across the country as part of the
-                        Central government's Digital India initiative,
-                        Union Minister Ravi Shankar Prasad informed on Wednesday.
+                        { this.props.content}
                     </div>
                 </div>
 
