@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import '../styles/pros.css';
 
+import AA from "../media/images/AA.jpg"
 import A from '../media/images/A.jpg'
 import B from '../media/images/B.jpg'
 import C from '../media/images/C.jpg'
@@ -29,7 +30,7 @@ class Pros extends Component{
                 
                 <div className="rowA">
                     <div class="card">
-                        <img class="card-img-top" src={ A } alt="Card image cap"/>
+                        <img class="card-img-top" src={ AA } alt="Card image cap"/>
                         <div class="card-body">
                             <h5 class="card-title">BETI BACHAO BETI PADHAO</h5>
                             <p class="card-text">The campaign aims at ensuring girls are born, nurtured and educated without discrimination to become empowered citizens of this country.

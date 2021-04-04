@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import arrow from '../media/icons/right-arrow.png';
 import gear from '../media/images/gear.png'
+import rock from "../media/images/Rocket-Transparent.png";
 
 import '../styles/hero.css';
 
@@ -50,6 +51,7 @@ class Hero extends Component{
                               empowered in the field of technology.
                         </p>
                     </div>
+
                 </div>
 
             </div>
