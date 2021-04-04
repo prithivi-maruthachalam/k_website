@@ -3,12 +3,19 @@ import { Link } from 'react-router-dom';
 
 import '../styles/header.css';
 
+import logo from '../media/images/logoimg.png'
+
 
 class Header extends Component{
     render(){
       return(
         <div className="header-container">
-          <div classname="header-title">Digital India</div>
+          <div className="headerCont">
+            <div className="logoCont"><img src={ logo} className="logo"/></div>
+            <div classname="header-title">
+                Digital India
+            </div>
+            </div>
           <div>
               <Link to="/">
                 <button className="btn header-button-base btn-nav">Home</button>
